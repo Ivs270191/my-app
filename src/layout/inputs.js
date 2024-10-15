@@ -161,7 +161,7 @@ export const Inputs = () => {
     }}>
         <> 
         <Result />
-        
+        <h1>Расчет доп затрат</h1>
             <div className="inputsdiv">
                 <input onChange={onChangeCurrency} placeholder={'Курс'} />
                 <input onChange={onChangeBroker} placeholder={'Брокер'} />
